@@ -1,6 +1,6 @@
 ## Backend Skeleton
 
-This project aims to create a Python backend skeleton for learning purposes. It consists in a backend that listens every post request on localhost:5000/post and send the post request data to the localhost:5000/.
+This project aims to create a Python backend skeleton for learning purposes. It consists in a backend that listens every post request on ```localhost:5000/post``` and send the post request data to the ```localhost:5000/```
 
 ## Prerequisites
 

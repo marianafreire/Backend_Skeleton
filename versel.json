@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "./app.py",
+        "src": "./index.py",
         "use": "@vercel/python"
       }
     ],
@@ -10,12 +10,12 @@
       {
         "src": "/post",
         "methods": ["POST"],
-        "dest": "./app.py"
+        "dest": "./index.py"
       },
       {
         "src": "/",
         "methods": ["GET"],
-        "dest": "./app.py"
+        "dest": "./index.py"
       }
     ]
   }

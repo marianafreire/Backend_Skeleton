@@ -4,7 +4,7 @@ import json
 app = Flask(__name__)
 last_data = ''
 
-@app.route('/post', methods=['POST'])
+@app.route('https://garmin-health-test.vercel.app/post', methods=['POST'])
 def process_data():
     try:
         global last_data
@@ -14,7 +14,7 @@ def process_data():
     except Exception as e:
         return f'An error occurred: {str(e)}', 500
     
-@app.route('/', methods=['GET'])
+@app.route('https://garmin-health-test.vercel.app/', methods=['GET'])
 def show_post_request():
     try:
         global last_data

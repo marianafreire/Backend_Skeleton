@@ -8,7 +8,7 @@ require('dotenv').config();
 const app = express();
 const port = process.env.PORT || 3000;
 const route = Router();
-const url = process.env.MONGODB_URI;
+const url = process.env.MONGO_URL;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));

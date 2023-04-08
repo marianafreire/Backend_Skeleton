@@ -61,7 +61,7 @@ route.post('/post', async (req, res) => {
       await respiration.save();
       console.log("Respiration inserted into MongoDB");
       return res.status(200).send('Request received successfully!');
-    } else if (lastData.hasOwnProperty('pulseOx')) {
+    } else if (lastData.hasOwnProperty('pulseox')) {
       const pulseOx = new PulseOx(lastData);
       await pulseOx.save();
       console.log("PulseOx inserted into MongoDB");

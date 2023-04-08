@@ -35,7 +35,7 @@ const Dailies = mongoose.model('Dailies', dailiesSchema);
 
 // Pulse Ox Summaries
 const pulseOxSchema = new mongoose.Schema(
-  {pulseOx: [{}]}
+  {pulseox: [{}]}
 );
 const PulseOx = mongoose.model('PulseOx', pulseOxSchema);
 
